@@ -1,3 +1,4 @@
-# library
+# pl.library.app.Library
 Nauka JAVy z JAVASTART
-v4.0 Zmiana w konstruktorze Book aby przyjmował niepełne dane
+v7.0
+Umieszczenie książek w tablicy
