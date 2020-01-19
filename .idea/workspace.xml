@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c657a46b-217c-48bd-bf0b-abe5929268a0" name="Default Changelist" comment="wersja 4, zmiana w konstruktorze aby przyjmował nie wszytskie dane">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/library/model/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/app/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/io/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/library/app/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/model/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +172,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -199,22 +201,22 @@
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="294" y="0" width="774" height="740" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1579392216396" />
-    <state width="1320" height="383" key="GridCell.Tab.0.bottom" timestamp="1579392197494">
+    <state width="1320" height="383" key="GridCell.Tab.0.bottom" timestamp="1579444975853">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="383" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1579392197494" />
-    <state width="1320" height="383" key="GridCell.Tab.0.center" timestamp="1579392197494">
+    <state width="1320" height="383" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1579444975853" />
+    <state width="1320" height="383" key="GridCell.Tab.0.center" timestamp="1579444975852">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="383" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1579392197494" />
-    <state width="1320" height="383" key="GridCell.Tab.0.left" timestamp="1579392197493">
+    <state width="1320" height="383" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1579444975852" />
+    <state width="1320" height="383" key="GridCell.Tab.0.left" timestamp="1579444975851">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="383" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1579392197493" />
-    <state width="1320" height="383" key="GridCell.Tab.0.right" timestamp="1579392197494">
+    <state width="1320" height="383" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1579444975851" />
+    <state width="1320" height="383" key="GridCell.Tab.0.right" timestamp="1579444975853">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="383" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1579392197494" />
+    <state width="1320" height="383" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1579444975853" />
     <state x="278" y="107" width="806" height="527" key="Vcs.Push.Dialog.v2" timestamp="1579386101123">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
