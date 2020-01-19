@@ -24,6 +24,7 @@ public class Library {
         for (int i = 0; i < booksNumber; i++) {
             books[i].printInfo();
         }
+        System.out.println("Obecnie jest: " + booksNumber + " książek w bibliotece" );
     }
 
 
