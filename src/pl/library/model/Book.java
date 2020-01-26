@@ -1,33 +1,19 @@
 package pl.library.model;
 
-public class Book {
+public class Book extends Publication {
 
-    private String title;
     private String author;
-    private int releasedate;
     private int pages;
-    private String publisher;
     private String isbn;
 
-        public Book(String title, String author, int releasedate, int pages, String publisher) {
-        this.title = title;
+    public Book(String title, String author, int year, int pages, String publisher, String isbn) {
+        this.setTitle(title);
+        this.setYear(year);
+        this.setPublisher(publisher);
         this.author = author;
-        this.releasedate = releasedate;
         this.pages = pages;
-        this.publisher = publisher;
-    }
-
-        public Book(String title, String author, int releasedate, int pages, String publisher, String isbn) {
-        this(title, author, releasedate, pages, publisher );
         this.isbn = isbn;
-    }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public String getAuthor() {
@@ -38,28 +24,12 @@ public class Book {
         this.author = author;
     }
 
-    public int getReleasedate() {
-        return releasedate;
-    }
-
-    public void setReleasedate(int releasedate) {
-        this.releasedate = releasedate;
-    }
-
     public int getPages() {
         return pages;
     }
 
     public void setPages(int pages) {
         this.pages = pages;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
     }
 
     public String getIsbn() {
@@ -71,11 +41,11 @@ public class Book {
     }
 
     public void printInfo() {
-        String info = title + "; " + author + "; " + releasedate + "; " + pages + "; " + publisher;
-        if( isbn != null){
-            info = info + "; "+ isbn;
+        String info = getTitle() + "; " + author + "; " + getYear() + "; " + pages + "; " +  getPublisher();
+        if (isbn != null) {
+            info = info + "; " + isbn;
         }
 
-         System.out.println(info);
+        System.out.println(info);
     }
 }
