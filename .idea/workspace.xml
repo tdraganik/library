@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c657a46b-217c-48bd-bf0b-abe5929268a0" name="Default Changelist" comment="wersja 4, zmiana w konstruktorze aby przyjmował nie wszytskie dane">
-      <change afterPath="$PROJECT_DIR$/src/pl/library/model/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/library/model/Publication.java" afterDir="false" />
+    <list default="true" id="c657a46b-217c-48bd-bf0b-abe5929268a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/pl/library/io/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/pl/library/io/DataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/pl/library/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/pl/library/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/library/pl/library/model/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/pl/library/model/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/app/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/io/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/library/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/model/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579386086065</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="v11 możliwość dodanie magazynów, dziedzieczenie">
+      <created>1580042510483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580042510483</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,37 +202,38 @@
     <MESSAGE value="wersja 3, konstruktor dodawania książek" />
     <MESSAGE value="wersja 5.1 niewyświetlanie nulla w klasie book" />
     <MESSAGE value="wersja 4, zmiana w konstruktorze aby przyjmował nie wszytskie dane" />
-    <option name="LAST_COMMIT_MESSAGE" value="wersja 4, zmiana w konstruktorze aby przyjmował nie wszytskie dane" />
+    <MESSAGE value="v11 możliwość dodanie magazynów, dziedzieczenie" />
+    <option name="LAST_COMMIT_MESSAGE" value="v11 możliwość dodanie magazynów, dziedzieczenie" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="58" width="380" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1580039053934">
+    <state x="491" y="58" width="380" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1580136673495">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="491" y="58" width="380" height="625" key="#com.intellij.ide.util.MemberChooser/0.0.1366.741@0.0.1366.741" timestamp="1580039053934" />
-    <state x="294" y="0" width="774" height="740" key="CommitChangelistDialog2" timestamp="1579392216396">
+    <state x="491" y="58" width="380" height="625" key="#com.intellij.ide.util.MemberChooser/0.0.1366.741@0.0.1366.741" timestamp="1580136673495" />
+    <state x="294" y="0" width="774" height="740" key="CommitChangelistDialog2" timestamp="1580137589983">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="294" y="0" width="774" height="740" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1579392216396" />
-    <state width="1320" height="185" key="GridCell.Tab.0.bottom" timestamp="1580042276795">
+    <state x="294" y="0" width="774" height="740" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1580137589983" />
+    <state width="1320" height="185" key="GridCell.Tab.0.bottom" timestamp="1580047126897">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1580042276795" />
-    <state width="1320" height="185" key="GridCell.Tab.0.center" timestamp="1580042276795">
+    <state width="1320" height="185" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1580047126897" />
+    <state width="1320" height="185" key="GridCell.Tab.0.center" timestamp="1580047126896">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1580042276795" />
-    <state width="1320" height="185" key="GridCell.Tab.0.left" timestamp="1580042276795">
+    <state width="1320" height="185" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1580047126896" />
+    <state width="1320" height="185" key="GridCell.Tab.0.left" timestamp="1580047126896">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1580042276795" />
-    <state width="1320" height="185" key="GridCell.Tab.0.right" timestamp="1580042276795">
+    <state width="1320" height="185" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1580047126896" />
+    <state width="1320" height="185" key="GridCell.Tab.0.right" timestamp="1580047126897">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1580042276795" />
-    <state x="278" y="107" width="806" height="527" key="Vcs.Push.Dialog.v2" timestamp="1579386101123">
+    <state width="1320" height="185" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1580047126897" />
+    <state x="278" y="107" width="806" height="527" key="Vcs.Push.Dialog.v2" timestamp="1580042515832">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="278" y="107" width="806" height="527" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1579386101123" />
+    <state x="278" y="107" width="806" height="527" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1580042515832" />
     <state x="376" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1578468065095">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
