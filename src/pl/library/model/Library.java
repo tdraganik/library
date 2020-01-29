@@ -38,6 +38,11 @@ public class Library {
 
     public void printMagazines() {
         int coutMagazines = 0;
+        for (int i = 0; i < publicationsNumber; i++) {
+            if(publications[i] instanceof Magazine)
+                publications[i].printInfo();
+            coutMagazines ++;
+        }
         if (coutMagazines == 0) {
             System.out.println("Brak jest magazynów w bibliotece");
         }
