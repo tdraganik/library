@@ -1,3 +1,2 @@
 # pl.library.app.Library
-Nauka JAVy z JAVASTART
-v9 
+v15 ENUM

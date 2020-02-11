@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c657a46b-217c-48bd-bf0b-abe5929268a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/library/app/Option.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/app/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/library/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/library/pl/library/app/LibraryControl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580938547135</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="v15 dodanie class typu ENUM z typami wyliczeniowymi">
+      <created>1581400960837</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581400960837</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +250,8 @@
     <MESSAGE value="v13 zmiany uwzględniające polimorfizm w klasach Book i Magazine - dodanie klasy Publication" />
     <MESSAGE value="v13 drobne poprawki w klasie Library" />
     <MESSAGE value="v14 przerobienie metod printInfo na toString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="v14 przerobienie metod printInfo na toString()" />
+    <MESSAGE value="v15 dodanie class typu ENUM z typami wyliczeniowymi" />
+    <option name="LAST_COMMIT_MESSAGE" value="v15 dodanie class typu ENUM z typami wyliczeniowymi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="58" width="466" height="374" key="#com.intellij.ide.util.MemberChooser" timestamp="1581399617669">
@@ -253,11 +260,12 @@
     <state x="491" y="58" width="380" height="625" key="#com.intellij.ide.util.MemberChooser/0.0.1366.741@0.0.1366.741" timestamp="1580136673495" />
     <state x="1005" y="92" width="466" height="591" key="#com.intellij.ide.util.MemberChooser/0.0.3286.1173@0.0.3286.1173" timestamp="1580938211346" />
     <state x="418" y="58" width="466" height="374" key="#com.intellij.ide.util.MemberChooser/1920.0.1366.768/0.0.1366.741@0.0.1366.741" timestamp="1581399617669" />
-    <state x="2037" y="432" width="1122" height="768" key="CommitChangelistDialog2" timestamp="1581105515281">
-      <screen x="1920" y="432" width="1366" height="768" />
+    <state x="117" y="0" width="1122" height="768" key="CommitChangelistDialog2" timestamp="1581400960699">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="57" y="1" width="1234" height="740" key="CommitChangelistDialog2/0.0.1366.741@0.0.1366.741" timestamp="1580276247268" />
     <state x="0" y="1" width="1920" height="1172" key="CommitChangelistDialog2/0.0.3286.1173@0.0.3286.1173" timestamp="1580938547021" />
+    <state x="117" y="0" key="CommitChangelistDialog2/1920.0.1366.768/0.0.1366.741@0.0.1366.741" timestamp="1581400960699" />
     <state x="2037" y="432" width="1122" height="768" key="CommitChangelistDialog2/1920.432.1366.768/0.0.1920.1173@0.0.1920.1173" timestamp="1581105515281" />
     <state x="286" y="30" width="1498" height="1052" key="DiffContextDialog" timestamp="1581105281058">
       <screen x="0" y="0" width="1920" height="1173" />
@@ -284,11 +292,12 @@
     </state>
     <state width="1320" height="291" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1580966890725" />
     <state width="1320" height="291" key="GridCell.Tab.0.right/1920.0.1366.768/0.0.1366.741@0.0.1366.741" timestamp="1581400712601" />
-    <state x="0" y="169" width="1920" height="835" key="Vcs.Push.Dialog.v2" timestamp="1580938551735">
-      <screen x="0" y="0" width="3286" height="1173" />
+    <state x="0" y="107" width="1920" height="835" key="Vcs.Push.Dialog.v2" timestamp="1581400963727">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="278" y="107" width="806" height="527" key="Vcs.Push.Dialog.v2/0.0.1366.741@0.0.1366.741" timestamp="1580276292057" />
     <state x="0" y="169" width="1920" height="835" key="Vcs.Push.Dialog.v2/0.0.3286.1173@0.0.3286.1173" timestamp="1580938551735" />
+    <state x="0" y="107" key="Vcs.Push.Dialog.v2/1920.0.1366.768/0.0.1366.741@0.0.1366.741" timestamp="1581400963727" />
     <state x="600" y="108" width="161" height="525" key="VcsDiffUtil.ChangesDialog" timestamp="1580192315922">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
