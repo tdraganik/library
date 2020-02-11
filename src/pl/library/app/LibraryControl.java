@@ -19,6 +19,7 @@ public class LibraryControl {
 
             switch (option){
                 case EXIT:
+                    exit();
                     break;
                 case ADD_BOOK:
                     addBook();
@@ -30,6 +31,7 @@ public class LibraryControl {
                     printBooks();
                     break;
                 case PRINT_MAGAZINE:
+                    printMagazines();
                     break;
                 default:
                     System.out.println("Błędna opcja ");
