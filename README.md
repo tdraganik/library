@@ -1,2 +1,2 @@
 # pl.library.app.Library
-v15 ENUM
+v16 Obsługa wyjątkóœ, zastapienie sout - printLine

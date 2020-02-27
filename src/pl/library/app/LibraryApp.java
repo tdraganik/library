@@ -2,7 +2,7 @@ package pl.library.app;
 
 class LibraryApp {
 
-    private static final String APP_NAME = "Biblioteka v 15.0";
+    private static final String APP_NAME = "Biblioteka v 16.0";
     public static void main(String[] args) {
 
         System.out.println(APP_NAME);

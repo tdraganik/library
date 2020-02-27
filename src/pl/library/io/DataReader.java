@@ -6,51 +6,57 @@ import pl.library.model.Magazine;
 import java.util.Scanner;
 
 public class DataReader {
+
     private Scanner sc = new Scanner(System.in);
+    private ConsolePrinter printer;
+
+    public DataReader(ConsolePrinter printer) {
+        this.printer = printer;
+    }
 
     public void close() {
         sc.close();
     }
 
     public Book readAndCreateBook() {
-        System.out.println("Tytuł ");
+        printer.printLine("Tytuł ");
         String title = sc.nextLine();
 
-        System.out.println("Autor ");
+        printer.printLine("Autor ");
         String author = sc.nextLine();
 
-        System.out.println("Wydawnictwo ");
+        printer.printLine("Wydawnictwo ");
         String publisher = sc.nextLine();
 
-        System.out.println("ISBN ");
+        printer.printLine("ISBN ");
         String isbn = sc.nextLine();
 
-        System.out.println("Rok wydania ");
+        printer.printLine("Rok wydania ");
         int relaseDate = getInt();
 
-        System.out.println("Liczba stron ");
+        printer.printLine("Liczba stron ");
         int pages = getInt();
 
         return new Book(title, author, relaseDate, pages, publisher, isbn);
     }
 
     public Magazine readAndCreateMagazine() {
-        System.out.println("Tytuł ");
+        printer.printLine("Tytuł ");
         String title = sc.nextLine();
 
-        System.out.println("Wydawca ");
+        printer.printLine("Wydawca ");
         String publisher = sc.nextLine();
 
-        System.out.println("Język ");
+        printer.printLine("Język ");
         String language = sc.nextLine();
 
-        System.out.println("Rok wydania ");
+        printer.printLine("Rok wydania ");
         int year = getInt();
 
-        System.out.println("Miesiąc ");
+        printer.printLine("Miesiąc ");
         int month = getInt();
 
-        System.out.println("Dzień ");
+        printer.printLine("Dzień ");
         int day = getInt();
 
 
@@ -58,9 +64,11 @@ public class DataReader {
     }
 
     public int getInt() {
-        int number = sc.nextInt();
-        sc.nextLine();
-        return number;
+        try{
+            return sc.nextInt();
+        } finally {
+            sc.nextLine();
+        } // próbuj wczytuj liczbę i czyść entera zawsze, jeśli inna wartość to będze rzucony wyjątek InputMisnathException
     }
 
 
