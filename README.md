@@ -1,2 +1,2 @@
 # pl.library.app.Library
-v16 Obsługa wyjątkóœ, zastapienie sout - printLine
+v17 przeniesienie typu wyliczeniowego Option do LibraryControl 
